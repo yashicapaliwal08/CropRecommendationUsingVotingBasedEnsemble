@@ -21,12 +21,19 @@ The crop recommendation system leverages machine learning to assist farmers in s
 This system aims to revolutionize agricultural practices by providing precise and reliable crop recommendations, ultimately leading to better resource utilization and higher productivity
 
 ## Install
-1. Install python
-2. Run command
-  ```bash
-  pip install
-  ```
-3. Run command
+1. Prerequisites
+   a. Python 3.7 or higher
+   b. pip (Python package installer)
+2. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/crop-recommendation.git
+   cd crop-recommendation
+   ```
+3. Run command to install dependencies
+   ```bash
+   pip install
+   ```
+4. Run command to run the file
    ```bash
    python croprecommendation.py
    ```
